@@ -17,7 +17,7 @@ from discord.ext import commands
 from datetime import datetime
 
 from config import TOKEN, TIMEZONE, CHALLENGE_CHANNEL_ID, SUBMIT_CHANNEL_ID, ADMIN_CHANNEL_ID
-from database.db import init_db, db_get_challenge
+from database.database import init_db, db_get_challenge
 
 # Commands
 import commands.start         as cmd_start
